@@ -23,7 +23,7 @@ async function checkPassword(event) {
 
     // Decode the URL from base 64 and redirect the user
 
-    var url = atob("aHR0cHM6Ly93d3cucmV6a2VyeS5jb20=");
+    var url = atob("aHR0cHM6Ly9lZXZiLmdpdGh1Yi5pby9yb2xhcy8=");
     window.location.href = url;
   } else {
     alert("Incorrect password, please try again.");
