@@ -19,7 +19,7 @@ async function checkPassword(event) {
     const tokenValue = "12345";
 
     // Add the token to local storage
-    localStorage.setItem("token", tokenValue);
+    sessionStorage.setItem("token", tokenValue);
 
     // Decode the URL from base 64 and redirect the user
 
